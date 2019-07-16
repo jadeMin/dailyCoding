@@ -16,6 +16,10 @@ for i in range(n):
 
 for i in range(n):
     solution.append(bin(map1[i] | map2[i])[2:].replace('0',' ').replace('1', '#'))
+    #bin() : 10진법 > 2진법 변환
+    #bin()[2:] : 변환 시 0b 제거
+    #replace('찾는것''바꿀것''개수')
+    #append() : list 뒤로 추가
 
 print(solution)
  
