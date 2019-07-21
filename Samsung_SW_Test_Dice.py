@@ -8,3 +8,4 @@ for i in range(0,N):
     temp.append(input().split())
   board.append(temp)
   
+#Blank input
