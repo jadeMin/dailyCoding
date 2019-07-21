@@ -8,4 +8,10 @@ for i in range(0,N):
     temp.append(input().split())
   board.append(temp)
   
-#Blank input
+command = []
+
+#Direction Commands input - east:1, west:2, north:3, south:4
+for k in range(0,K):
+  command.append(input().split())
+
+#Algorithm
