@@ -14,4 +14,14 @@ command = []
 for k in range(0,K):
   command.append(input().split())
 
-#Algorithm
+#Number -> command
+for c in command:
+  if c == 1:
+  
+  elif c == 2:
+  
+  elif c == 3:
+    
+  elif == 4:
+    
+  else:
